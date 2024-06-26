@@ -1,0 +1,174 @@
+{
+  "welcome": {
+    "text": "Hi there! Welcome to our chatbot. What can I help you find today?",
+    "next": {
+      "question": "Are you looking for:",
+      "options": {
+        "Restaurants": {
+          "text": "Find a restaurant",
+          "next": {
+            "question": "What type of cuisine are you interested in?",
+            "options": {
+              "Italian": {
+                "text": "Italian food",
+                "next": {
+                  "question": "What area are you looking in?",
+                  "options": {
+                    "Downtown": {
+                      "text": "Downtown",
+                      "next": {
+                        "text": "Here are some Italian restaurants in Downtown:",
+                        "options": {
+                          "Restaurant 1": {
+                            "text": "Restaurant 1",
+                            "next": {
+                              // Display details for Restaurant 1
+                            }
+                          },
+                          "Restaurant 2": {
+                            "text": "Restaurant 2",
+                            "next": {
+                              // Display details for Restaurant 2
+                            }
+                          },
+                          "Restaurant 3": {
+                            "text": "Restaurant 3",
+                            "next": {
+                              // Display details for Restaurant 3
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Midtown": {
+                      "text": "Midtown",
+                      "next": {
+                        "text": "Here are some Italian restaurants in Midtown:",
+                        "options": {
+                          "Restaurant 4": {
+                            "text": "Restaurant 4",
+                            "next": {
+                              // Display details for Restaurant 4
+                            }
+                          },
+                          "Restaurant 5": {
+                            "text": "Restaurant 5",
+                            "next": {
+                              // Display details for Restaurant 5
+                            }
+                          },
+                          "Restaurant 6": {
+                            "text": "Restaurant 6",
+                            "next": {
+                              // Display details for Restaurant 6
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Uptown": {
+                      "text": "Uptown",
+                      "next": {
+                        "text": "Here are some Italian restaurants in Uptown:",
+                        "options": {
+                          "Restaurant 7": {
+                            "text": "Restaurant 7",
+                            "next": {
+                              // Display details for Restaurant 7
+                            }
+                          },
+                          "Restaurant 8": {
+                            "text": "Restaurant 8",
+                            "next": {
+                              // Display details for Restaurant 8
+                            }
+                          },
+                          "Restaurant 9": {
+                            "text": "Restaurant 9",
+                            "next": {
+                              // Display details for Restaurant 9
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Chinese": {
+                "text": "Chinese food",
+                "next": {
+                  // Handle similar logic for other cuisines
+                }
+              },
+              "default": {
+                "text": "Sorry, I don't have that cuisine yet. Try something else or browse all restaurants.",
+                "next": {
+                  // Offer options to explore all restaurants or refine search
+                }
+              }
+            }
+          }
+        },
+        "Clinics": {
+          "text": "Find a clinic",
+          "next": {
+            "question": "What kind of clinic are you looking for?",
+            "options": {
+              "General": {
+                "text": "General practice clinic",
+                "next": {
+                  // Handle location and appointment options
+                }
+              },
+              "Dental": {
+                "text": "Dental clinic",
+                "next": {
+                  // Handle similar logic for other clinic types
+                }
+              },
+              "default": {
+                "text": "Sorry, I can't help with that specific clinic type yet. Try a general clinic or browse all clinics.",
+                "next": {
+                  // Offer options to explore all clinics or refine search
+                }
+              }
+            }
+          }
+        },
+        "Transportation": {
+          "text": "Find transportation options",
+          "next": {
+            "question": "What type of transportation are you interested in?",
+            "options": {
+              "Taxi": {
+                "text": "Book a taxi",
+                "next": {
+                  // Handle location and booking options
+                }
+              },
+              "Ridesharing": {
+                "text": "Find a ridesharing service",
+                "next": {
+                  // Handle location and service selection options
+                }
+              },
+              "Public Transport": {
+                "text": "Get public transport information",
+                "next": {
+                  // Handle location and route options
+                }
+              },
+              "default": {
+                "text": "Sorry, I don't have that transportation option yet. Try a different option or browse all services.",
+                "next": {
+                  // Offer options to explore all services or refine search
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

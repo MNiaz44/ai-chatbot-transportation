@@ -1,0 +1,100 @@
+{
+  "welcome": {
+    "text": "Hello! Welcome Back. Let's get started by providing some details about your business.",
+    "next": {
+      "question": "What type of service does your business provide?",
+      "options": {
+        "Restaurant": {
+          "text": "Restaurant",
+          "next": {
+            "question": "What type of cuisine do you serve?",
+            "options": {
+              "Italian": {
+                "text": "Italian food",
+                "next": {
+                  "question": "Where is your restaurant located?",
+                  "next": {
+                    "text": "Thank you for providing the details! Your Italian restaurant has been successfully registered.",
+                    "details": {
+                      "type": "Restaurant",
+                      "cuisine": "Italian",
+                      "location": "",
+                      "contact": {
+                        "phone": "",
+                        "email": "",
+                        "website": ""
+                      },
+                      "opening_hours": "",
+                      "rating": "",
+                      "reviews": []
+                    }
+                  }
+                }
+              },
+              // Similar options for other cuisines
+            }
+          }
+        },
+        "Clinic": {
+          "text": "Clinic",
+          "next": {
+            "question": "What type of clinic is it?",
+            "options": {
+              "General": {
+                "text": "General practice clinic",
+                "next": {
+                  "question": "Where is your clinic located?",
+                  "next": {
+                    "text": "Thank you for providing the details! Your general practice clinic has been successfully registered.",
+                    "details": {
+                      "type": "Clinic",
+                      "specialty": "General Practice",
+                      "location": "",
+                      "contact": {
+                        "phone": "",
+                        "email": "",
+                        "website": ""
+                      },
+                      "opening_hours": "",
+                      "rating": "",
+                      "reviews": []
+                    }
+                  }
+                }
+              },
+              // Similar options for other clinic types
+            }
+          }
+        },
+        "Transportation": {
+          "text": "Transportation service",
+          "next": {
+            "question": "What type of transportation service do you offer?",
+            "options": {
+              "Taxi": {
+                "text": "Taxi service",
+                "next": {
+                  "question": "Where is your taxi service available?",
+                  "next": {
+                    "text": "Thank you for providing the details! Your taxi service has been successfully registered.",
+                    "details": {
+                      "type": "Transportation",
+                      "service": "Taxi",
+                      "coverage_area": "",
+                      "contact": {
+                        "phone": "",
+                        "email": "",
+                        "website": ""
+                      }
+                    }
+                  }
+                }
+              },
+              // Similar options for ridesharing and public transport
+            }
+          }
+        }
+      }
+    }
+  }
+}
